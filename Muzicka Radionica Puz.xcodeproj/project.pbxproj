@@ -12,9 +12,30 @@
 		BFBE305E20585C7B00F0854B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE305C20585C7B00F0854B /* Main.storyboard */; };
 		BFBE306020585C7B00F0854B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE305F20585C7B00F0854B /* Assets.xcassets */; };
 		BFBE306320585C7B00F0854B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE306120585C7B00F0854B /* LaunchScreen.storyboard */; };
+		BFBE306B20585D3400F0854B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BFBE306A20585D3400F0854B /* Podfile */; };
+		BFBE306D20585E3600F0854B /* Buzzable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE306C20585E3600F0854B /* Buzzable.swift */; };
+		BFBE306F20585E4900F0854B /* Poppable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE306E20585E4900F0854B /* Poppable.swift */; };
+		BFBE30702058620000F0854B /* Pods_Muzicka_Radionica_Puz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC2AC7C062DE43F02F80E81 /* Pods_Muzicka_Radionica_Puz.framework */; };
+		BFBE30712058620000F0854B /* Pods_Muzicka_Radionica_Puz.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC2AC7C062DE43F02F80E81 /* Pods_Muzicka_Radionica_Puz.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BFBE30722058620000F0854B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFBE30712058620000F0854B /* Pods_Muzicka_Radionica_Puz.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4BC2AC7C062DE43F02F80E81 /* Pods_Muzicka_Radionica_Puz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muzicka_Radionica_Puz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8819325EE264D47829A2AF /* Pods-Muzicka Radionica Puz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muzicka Radionica Puz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muzicka Radionica Puz/Pods-Muzicka Radionica Puz.debug.xcconfig"; sourceTree = "<group>"; };
 		BFBE305520585C7B00F0854B /* Muzicka Radionica Puz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muzicka Radionica Puz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE305820585C7B00F0854B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBE305A20585C7B00F0854B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,10 @@
 		BFBE305F20585C7B00F0854B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBE306220585C7B00F0854B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBE306420585C7B00F0854B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBE306A20585D3400F0854B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFBE306C20585E3600F0854B /* Buzzable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buzzable.swift; sourceTree = "<group>"; };
+		BFBE306E20585E4900F0854B /* Poppable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poppable.swift; sourceTree = "<group>"; };
+		FC64C35E2825AF7BD2DA904B /* Pods-Muzicka Radionica Puz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muzicka Radionica Puz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muzicka Radionica Puz/Pods-Muzicka Radionica Puz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBE30702058620000F0854B /* Pods_Muzicka_Radionica_Puz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4FFF1BAB4E9A55E2873EF6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D8819325EE264D47829A2AF /* Pods-Muzicka Radionica Puz.debug.xcconfig */,
+				FC64C35E2825AF7BD2DA904B /* Pods-Muzicka Radionica Puz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFBE304C20585C7B00F0854B = {
 			isa = PBXGroup;
 			children = (
+				BFBE306A20585D3400F0854B /* Podfile */,
 				BFBE305720585C7B00F0854B /* Muzicka Radionica Puz */,
 				BFBE305620585C7B00F0854B /* Products */,
+				B4FFF1BAB4E9A55E2873EF6A /* Pods */,
+				D6A1749C533215EC4280B824 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +94,22 @@
 			children = (
 				BFBE305820585C7B00F0854B /* AppDelegate.swift */,
 				BFBE305A20585C7B00F0854B /* ViewController.swift */,
+				BFBE306C20585E3600F0854B /* Buzzable.swift */,
+				BFBE306E20585E4900F0854B /* Poppable.swift */,
 				BFBE305C20585C7B00F0854B /* Main.storyboard */,
 				BFBE305F20585C7B00F0854B /* Assets.xcassets */,
 				BFBE306120585C7B00F0854B /* LaunchScreen.storyboard */,
 				BFBE306420585C7B00F0854B /* Info.plist */,
 			);
 			path = "Muzicka Radionica Puz";
+			sourceTree = "<group>";
+		};
+		D6A1749C533215EC4280B824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2AC7C062DE43F02F80E81 /* Pods_Muzicka_Radionica_Puz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFBE306720585C7B00F0854B /* Build configuration list for PBXNativeTarget "Muzicka Radionica Puz" */;
 			buildPhases = (
+				A3679E6A1B4C1519C873F0DE /* [CP] Check Pods Manifest.lock */,
 				BFBE305120585C7B00F0854B /* Sources */,
 				BFBE305220585C7B00F0854B /* Frameworks */,
 				BFBE305320585C7B00F0854B /* Resources */,
+				0A16ECA783400A584402745D /* [CP] Embed Pods Frameworks */,
+				9A16E0F67A081A211580EE91 /* [CP] Copy Pods Resources */,
+				BFBE30722058620000F0854B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,17 +177,74 @@
 			files = (
 				BFBE306320585C7B00F0854B /* LaunchScreen.storyboard in Resources */,
 				BFBE306020585C7B00F0854B /* Assets.xcassets in Resources */,
+				BFBE306B20585D3400F0854B /* Podfile in Resources */,
 				BFBE305E20585C7B00F0854B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A16ECA783400A584402745D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Muzicka Radionica Puz/Pods-Muzicka Radionica Puz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muzicka Radionica Puz/Pods-Muzicka Radionica Puz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A16E0F67A081A211580EE91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muzicka Radionica Puz/Pods-Muzicka Radionica Puz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3679E6A1B4C1519C873F0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muzicka Radionica Puz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFBE305120585C7B00F0854B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBE306F20585E4900F0854B /* Poppable.swift in Sources */,
+				BFBE306D20585E3600F0854B /* Buzzable.swift in Sources */,
 				BFBE305B20585C7B00F0854B /* ViewController.swift in Sources */,
 				BFBE305920585C7B00F0854B /* AppDelegate.swift in Sources */,
 			);
@@ -272,29 +381,39 @@
 		};
 		BFBE306820585C7B00F0854B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8819325EE264D47829A2AF /* Pods-Muzicka Radionica Puz.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Puz;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
 				INFOPLIST_FILE = "Muzicka Radionica Puz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Muzicka-Radionica-Puz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BFBE306920585C7B00F0854B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC64C35E2825AF7BD2DA904B /* Pods-Muzicka Radionica Puz.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Puz;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
 				INFOPLIST_FILE = "Muzicka Radionica Puz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Muzicka-Radionica-Puz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

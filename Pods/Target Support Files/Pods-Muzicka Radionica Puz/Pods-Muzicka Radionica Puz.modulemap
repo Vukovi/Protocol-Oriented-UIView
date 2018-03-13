@@ -1,0 +1,6 @@
+framework module Pods_Muzicka_Radionica_Puz {
+  umbrella header "Pods-Muzicka Radionica Puz-umbrella.h"
+
+  export *
+  module * { export * }
+}
